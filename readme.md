@@ -1,4 +1,4 @@
 # Github
 
-Arquivo do trabalho de criptografia.
+Arquivo do trabalho de criptografia em python.
 
