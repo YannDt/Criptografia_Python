@@ -2,7 +2,7 @@ Projeto Realizado no 1º semestre de 2019.
 
 # Objetivo do projeto
 
-Projeto acadêmico realizado em python, onde o objetivo era desenvolver um programa que realizasse a criptografia de uma mensagem e a descriptografia da mesma.
+Projeto realizado em python, onde o objetivo era desenvolver um programa que realizasse a criptografia de uma mensagem e a descriptografia da mesma.
 
 ## Modo de uso do programa
 
