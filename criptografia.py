@@ -21,9 +21,9 @@ if escolha=="c":
     c='' 
     for i in range(len(msg)): 
       if i%2==0:
-        c=c+chr(ord(msg[i])+2)
+        c=c.join(chr(ord(msg[i])+2))
       else:
-        c=c+chr(ord(msg[i])-3)
+        c=c.join(chr(ord(msg[i])-3))
     arquivo=open(nomearquivo,"w") 
     arquivo.write(c)
     arquivo.close()
@@ -37,17 +37,17 @@ if escolha=="c":
 ###################
 
 if escolha=="d":
-    arquivo=open("msg.txt","r")
+    arquivo=open(nomearquivo,"r")
     msg=arquivo.read()
     desc=arquivo.readlines()
     arquivo.close
     d = ''
     for i in range(len(msg)):
       if i%2==0:
-        d=d+chr(ord(msg[i])-2)
+        d=d.join(chr(ord(msg[i])-2))
       else:
-        d=d+chr(ord(msg[i])+3)
-    arquivo=open("msg.txt","w")
+        d=d.join(chr(ord(msg[i])+3))
+    arquivo=open(nomearquivo,"w")
     desc.append(d)
     arquivo.writelines(desc)
     arquivo.close()
